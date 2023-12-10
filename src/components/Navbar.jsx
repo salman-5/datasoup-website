@@ -25,12 +25,12 @@ function Navbar() {
 
   return (
     <motion.nav
-      class={`fixed top-0 left-0 flex items-center justify-around flex-wrap  p-4 w-full transform transition duration-300 bg-transparent ${navbarBg}`}
+      class={`fixed bg-[#d07bb8] z-50  top-0 left-0 flex items-center justify-around flex-wrap  p-4 w-full transform transition duration-300 bg-transparent ${navbarBg}`}
     >
       <div class="flex items-center  text-white mr-6 bg-blue-700">
         <img
           className="h-18 w-24"
-          src="/assets/whatsapp image 2023-04-27 at 6.50.39 pm.jpeg"
+          src="/assets/datasoup.svg"
           alt=""
         />
       </div>
@@ -47,9 +47,9 @@ function Navbar() {
           duration: 1,
           delay: 0.5,
         }}
-        className="bg-[rgba(230,202,222,1)] rounded-full space-x-5 flex p-3 px-12  "
+        className="hidden lg:block bg-[rgba(230,202,222,1)] rounded-full space-x-5 flex p-3 px-12  "
       >
-        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto space-x-5">
+        <div class="w-full lg:block flex-grow lg:flex lg:items-center lg:w-auto space-x-5">
           <div class=" lg:flex-grow space-x-5 text-xl">
             <a
               href="#responsive-header"

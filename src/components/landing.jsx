@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Wix = () => {
+const Landing = () => {
     return (
         <div className="w-[720px] h-[809px] relative">
         <div className="h-[409px] pl-[115px] pt-[193px] pb-[21px] left-[8px] top-0 absolute flex-col justify-start items-start inline-flex">
@@ -37,4 +37,4 @@ const Wix = () => {
     );
 }
 
-export default Wix;
+export default Landing;

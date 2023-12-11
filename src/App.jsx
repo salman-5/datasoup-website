@@ -12,18 +12,17 @@ function App() {
 
   return (
     <>
-    <div className="">
-      <Navbar />
+      <div className="">
+        <Navbar />
       </div>
-      <div className="mt-32">
-
-      <Landing />
-      <Benefits />
-      <Services />
-      <Whyus/>
-      <Contact />
-      <Footer />
-    </div>
+      <div className="mt-32 px-4">
+        <Landing />
+        <Benefits />
+        <Services />
+        <Whyus />
+        <Contact />
+        <Footer />
+      </div>
     </>
   );
 }

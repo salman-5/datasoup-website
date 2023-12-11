@@ -5,12 +5,12 @@ function Services() {
   return (
     <div
       id="services"
-      className="w-full flex items-center justify-center flex-col space-y-5 p-2"
+      className="w-full flex items-center justify-center flex-col space-y-1 p-2"
     >
-      <h1 className="text-5xl">
-        <span className="text-center text-teal-900 text-[37.41px] font-bold font-inter leading-[57px]">Explore our services</span>
-        <br></br>
-      </h1>
+        <div className="text-center text-teal-900 text-[37.41px] font-bold font-inter leading-[57px]">
+          Explore our services
+        </div>
+      
       {/* <span className="text-lg text-center text-gray-600">
         <span>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem
@@ -19,7 +19,7 @@ function Services() {
         </span>
         <span></span>
       </span> */}
-      <div className="w-full grid grid-cols-4 gap-2">
+      <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-2">
         <FeatureCard
           title="Odoo ERP Implementation"
           description="Trust our experts to guide you through a smooth Odoo ERP implementation process. We analyze your business requirements, customize the system accordingly, and ensure a seamless transition to Odoo, minimizing disruptions to your daily operations."

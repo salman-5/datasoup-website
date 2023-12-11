@@ -24,7 +24,7 @@ function FeatureCard(props) {
           ></path>
         </svg>
     </div>
-      <h1 className="text-black text-center font-medium uppercase font-Poppins">
+      <h1 className="text-violet-800 text-center font-medium uppercase font-Poppins">
         {props.title}
       </h1>
 

@@ -11,8 +11,12 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
+    <>
     <div className="">
       <Navbar />
+      </div>
+      <div className="mt-32">
+
       <Landing />
       <Benefits />
       <Services />
@@ -20,6 +24,7 @@ function App() {
       <Contact />
       <Footer />
     </div>
+    </>
   );
 }
 

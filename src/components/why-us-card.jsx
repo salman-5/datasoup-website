@@ -1,6 +1,6 @@
 import React from "react";
 
-function WhyCard({svg,text}) {
+function WhyCard({svg,text,description}) {
   return (
     // <div>
     //   <div className="w-full flex items-center flex-col">
@@ -15,13 +15,16 @@ function WhyCard({svg,text}) {
     //     <span className="text-xs font-medium">{props.action}</span>
     //   </div>
     // </div>
-    <div className="w-[210px] bg-neutral-100 rounded-[14px] shadow">
+    <div className=" p-4 bg-neutral-100 rounded-[14px] shadow">
     <div className="flex justify-evenly space-x-4">
      <img src={`/assets/${svg}`} alt="" />
     </div>
 
-    <p className="text-center text-violet-800 text-[20px] font-bold font-inter leading-[30px]">
+    <h1 className="text-center text-violet-800 text-[20px] font-bold font-inter leading-[30px]">
       {text}
+    </h1>
+    <p>
+      {description}
     </p>
   </div>
   );

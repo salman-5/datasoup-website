@@ -17,19 +17,19 @@ const Contact = () => {
                 <div className="text-gray-800 text-sm font-normal font-inter leading-[14px]">
                   Name
                 </div>
-                <textarea className=" h-10  bg-neutral-100 border border-gray-800" />
+                <input type="text" className=" h-10  bg-neutral-100 border border-gray-800" />
                 <div className="text-gray-800 text-[13.12px] font-normal font-inter leading-[14px]">
                   Company Name
                 </div>
-                <textarea className="h-10  bg-neutral-100 border border-gray-800" />
+                <input type="text" className="h-10  bg-neutral-100 border border-gray-800" />
                 <div className="text-gray-800 text-sm font-normal font-inter leading-[14px]">
                   Email *
                 </div>
-                <textarea className=" h-10  bg-neutral-100 border border-gray-800" />
+                <input type="email" className=" h-10  bg-neutral-100 border border-gray-800" />
                 <div className="text-gray-800 text-[12.91px] font-normal font-inter leading-[14px]">
                   Subject *
                 </div>
-                <textarea className=" h-10  bg-neutral-100 border border-gray-800" />
+                <input type="text" className=" h-10  bg-neutral-100 border border-gray-800" />
               </div>
               <div className="w-full">
                 <div className="text-gray-800 text-[12.91px] font-normal font-inter leading-[14px]">

@@ -11,7 +11,7 @@ const Contact = () => {
           Please take a moment to fill out the form.
         </div>
         <div className="flex items-center justify-center w-full ">
-          <div className=" gap-4 w-1/2 ">
+          <div className="space-y-4 w-full md:w-1/2 ">
             <div className=" flex  grid-cols-2 place-content-center gap-4">
               <div className="flex w-full flex-col place-content-evenly ">
                 <div className="text-gray-800 text-sm font-normal font-inter leading-[14px]">

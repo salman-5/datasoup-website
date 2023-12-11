@@ -26,7 +26,7 @@ function Navbar() {
   return (
     <motion.nav
     //removed fixed
-      class={`fixed bg-[#ca86b7] z-50  top-0 left-0 flex items-center justify-around flex-wrap  p-4 w-full transform transition duration-300 bg-transparent ${navbarBg}`}
+      class={`fixed bg-[#cb82b7] z-50  top-0 left-0 flex items-center justify-around flex-wrap  p-4 w-full transform transition duration-300 bg-transparent ${navbarBg}`}
     >
       <div class="flex items-center  text-white mr-6 bg-blue-700">
         <img

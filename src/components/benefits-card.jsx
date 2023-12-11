@@ -15,12 +15,12 @@ function BenefitsCard({svg,text}) {
     //     <span className="text-xs font-medium">{props.action}</span>
     //   </div>
     // </div>
-    <div className="bg-white border-gray-950 h-[400px] rounded-xl p-8 space-y-6">
-    <div className="flex flex-auto space-x-4">
+    <div className="w-[210px] h-60 bg-neutral-100 rounded-[14px] shadow">
+    <div className="flex justify-evenly space-x-4">
      <img src={`/assets/${svg}`} alt="" />
     </div>
 
-    <p className="text-justify text-black text-s justify font-Open-sans">
+    <p className="text-center text-violet-800 text-[20px] font-bold font-inter leading-[30px]">
       {text}
     </p>
   </div>

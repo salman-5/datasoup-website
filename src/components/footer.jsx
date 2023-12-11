@@ -24,12 +24,12 @@ const Footer = () => {
                     </div>
                     <div className="justify-start items-start flex">
                       <div className="flex-col justify-start items-start inline-flex">
-                        <img className="w-8 h-8 relative" src="https://via.placeholder.com/32x32" />
+                        <img className="w-8 h-8 relative" src="https://icons8.com/icon/48841/instagram" />
                       </div>
                     </div>
                     <div className="justify-start items-start flex">
                       <div className="flex-col justify-start items-start inline-flex">
-                        <img className="w-8 h-8 relative" src="https://via.placeholder.com/32x32" />
+                        <img className="w-8 h-8 relative" src="https://icons8.com/icon/fJp7hepMryiw/twitterx" />
                       </div>
                     </div>
                   </div>
@@ -38,7 +38,7 @@ const Footer = () => {
 
         <div className="h-[38px] pl-[22px] pb-[21px] left-[65px] top-[524px]  flex-col justify-start items-start inline-flex">
         <div className="self-stretch h-[17px] pl-[272.10px] pr-[271.90px] flex-col justify-start items-center flex">
-          <div className="text-center text-gray-800 text-sm font-normal font-inter">© 2035 by Unite. Powered and secured by Wix</div>
+          <div className="text-center text-gray-800 text-sm font-normal font-inter">© 2024 Copyright DataSoup All Rights Reserved</div>
         </div>
       </div>
 

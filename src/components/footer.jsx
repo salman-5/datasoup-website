@@ -8,42 +8,32 @@ const Footer = () => {
           <div className="grow shrink basis-0 self-stretch justify-start items-start gap-1.5 inline-flex">
             <div className="justify-start items-start flex">
               <div className="flex-col justify-start items-start inline-flex">
-                <img
-                  className="w-8 h-8 relative"
-                  src="https://via.placeholder.com/32x32"
-                />
+
+                <img className="w-8 h-8 relative" src="https://img.icons8.com/color/48/facebook-new.png" />
               </div>
             </div>
             <div className="justify-start items-start flex">
               <div className="flex-col justify-start items-start inline-flex">
-                <img
-                  className="w-8 h-8 relative"
-                  src="https://via.placeholder.com/32x32"
-                />
+
+                <img className="w-8 h-8 relative" src="https://img.icons8.com/color/48/youtube-play.png" />
               </div>
             </div>
             <div className="justify-start items-start flex">
               <div className="flex-col justify-start items-start inline-flex">
-                <img
-                  className="w-8 h-8 relative"
-                  src="https://via.placeholder.com/32x32"
-                />
+
+                <img className="w-8 h-8 relative" src="https://img.icons8.com/fluency/48/instagram-new.png" />
               </div>
             </div>
             <div className="justify-start items-start flex">
               <div className="flex-col justify-start items-start inline-flex">
-                <img
-                  className="w-8 h-8 relative"
-                  src="https://icons8.com/icon/48841/instagram"
-                />
+
+                <img className="w-8 h-8 relative" src="https://img.icons8.com/ios-filled/50/twitterx--v2.png" />
               </div>
             </div>
             <div className="justify-start items-start flex">
               <div className="flex-col justify-start items-start inline-flex">
-                <img
-                  className="w-8 h-8 relative"
-                  src="https://icons8.com/icon/fJp7hepMryiw/twitterx"
-                />
+
+                <img className="w-8 h-8 relative" src="https://img.icons8.com/color/48/whatsapp--v1.png" />
               </div>
             </div>
           </div>

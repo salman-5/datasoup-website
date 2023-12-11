@@ -23,7 +23,7 @@ function WhyCard({svg,text,description}) {
     <h1 className="text-center text-violet-800 text-[20px] font-bold font-inter leading-[30px]">
       {text}
     </h1>
-    <p>
+    <p className="text-justify text-gray-800 text-lg justify font-inter">
       {description}
     </p>
   </div>

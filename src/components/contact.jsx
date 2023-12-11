@@ -17,30 +17,30 @@ const Contact = () => {
                 <div className="text-gray-800 text-sm font-normal font-inter leading-[14px]">
                   Name
                 </div>
-                <div className=" h-10  bg-neutral-100 border border-gray-800" />
+                <textarea className=" h-10  bg-neutral-100 border border-gray-800" />
                 <div className="text-gray-800 text-[13.12px] font-normal font-inter leading-[14px]">
                   Company Name
                 </div>
-                <div className="h-10  bg-neutral-100 border border-gray-800" />
+                <textarea className="h-10  bg-neutral-100 border border-gray-800" />
                 <div className="text-gray-800 text-sm font-normal font-inter leading-[14px]">
                   Email *
                 </div>
-                <div className=" h-10  bg-neutral-100 border border-gray-800" />
+                <textarea className=" h-10  bg-neutral-100 border border-gray-800" />
                 <div className="text-gray-800 text-[12.91px] font-normal font-inter leading-[14px]">
                   Subject *
                 </div>
-                <div className=" h-10  bg-neutral-100 border border-gray-800" />
+                <textarea className=" h-10  bg-neutral-100 border border-gray-800" />
               </div>
               <div className="w-full">
                 <div className="text-gray-800 text-[12.91px] font-normal font-inter leading-[14px]">
                   Leave us a message...
                 </div>
-                <div className=" h-[264px]  bg-neutral-100 border border-gray-800" />
+                <textarea className=" h-[264px] w-full  bg-neutral-100 border border-gray-800" />
               </div>
             </div>
-            <div className=" text-center p-8 justify-center bg-violet-800 border border-violet-800 text-neutral-100 text-sm font-normal font-inter leading-tight">
+            <button className=" w-full text-center p-8 justify-center bg-violet-800 border border-violet-800 text-neutral-100 text-sm font-normal font-inter leading-tight">
               Submit
-            </div>
+            </button>
           </div>
         </div>
       </div>

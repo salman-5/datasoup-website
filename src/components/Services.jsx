@@ -5,14 +5,12 @@ function Services() {
   return (
     <div
       id="services"
-      className="w-full flex items-center justify-center flex-col space-y-5 p-2"
+      className="w-full flex items-center justify-center flex-col space-y-1 p-2"
     >
-      <h1 className="text-5xl">
-        <span className="text-center text-teal-900 text-[37.41px] font-bold font-inter leading-[57px]">
+        <div className="text-center text-teal-900 text-[37.41px] font-bold font-inter leading-[57px]">
           Explore our services
-        </span>
-        <br></br>
-      </h1>
+        </div>
+      
       {/* <span className="text-lg text-center text-gray-600">
         <span>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem
